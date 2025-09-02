@@ -7,10 +7,14 @@ tasks:
   - name: Install nginx
   apt:
     name: nginx
-    state: present
+    state: latest
 
   - name: Start nginx
     service:
       name: nginx
       state: started
 
+  - name: Stop nginx
+    service: 
+      name: nginx
+      state: stopped 

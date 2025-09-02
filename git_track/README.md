@@ -1,7 +1,9 @@
 3 branches(main, dev, feature)
 
-MAIN ->
+MAIN branch -> install,start nginx
 
-DEV ->
+DEV branch -> latest, start nginx on dev
 
-FEATURE -> 
+On both dev and feature, conflict resolved
+
+FEATURE branch -> latest,start, stopped
