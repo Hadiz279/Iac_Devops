@@ -1,3 +1,3 @@
-Resolve branches,merge branches, no conflicts
+Create branches,merge branches, resolve conflicts
 
 *Resolved
